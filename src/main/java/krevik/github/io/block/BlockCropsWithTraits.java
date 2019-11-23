@@ -16,7 +16,6 @@ public class BlockCropsWithTraits extends CropsBlock {
     public static final IntegerProperty COLOUR = BlockStateProperties.AGE_0_15;
     public static final IntegerProperty NUTRITION = BlockStateProperties.AGE_0_15;
     public static final IntegerProperty SIZE = BlockStateProperties.AGE_0_15;
-
     protected BlockCropsWithTraits(Properties builder) {
         super(builder);
         this.setDefaultState(this.stateContainer.getBaseState().with(this.getAgeProperty(), Integer.valueOf(0))
